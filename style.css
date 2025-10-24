@@ -1,0 +1,238 @@
+* {
+    font-family: "Libertinus Math", system-ui;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --blue: #0a1a2f;
+    --yellow: #d4af37;
+
+}
+
+.clr {
+    background-color: rgba(0, 0, 0, 0.584);
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.na1 {
+    background-color: var(--blue);
+}
+
+.na1 .d1 {
+    background-color: var(--blue);
+}
+
+.na1 .navbar-brand,
+.na1 .nav-link {
+    color: var(--yellow) !important;
+    font-weight: 600;
+}
+
+.na1 .nav-link:hover,
+.na1 .navbar-brand:hover {
+    color: #fff !important;
+}
+
+.na1 .dropdown-menu .dropdown-item {
+    color: var(--yellow);
+}
+
+.na1 .dropdown-menu .dropdown-item:hover {
+    background-color: #13233c;
+    color: #ffffff;
+}
+
+
+.video-background {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-position: center;
+    object-fit: cover;
+}
+
+#welcome {
+    padding-top: 15rem;
+    padding-left: 50%;
+    color: white;
+}
+
+#welcome h4 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#welcome h1 {
+    font-size: 80px;
+    font-weight: 900;
+    color: var(--yellow);
+}
+
+@media(max-width:993px) {
+    #welcome h4 {
+        font-size: 30px;
+
+    }
+
+    #welcome h1 {
+        font-size: 40px;
+
+    }
+
+    #welcome {
+        padding-left: 2rem;
+        padding-top: 8rem;
+    }
+
+}
+
+#welcome button {
+    background-color: var(--yellow);
+    color: var(--blue);
+    font-size: 30px;
+}
+
+#welcome button:hover {
+    background-color: var(--blue);
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
+
+#about {
+    background-image: url(https://img.freepik.com/free-photo/close-up-white-marble-textured-background_53876-139879.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ab {
+    padding-top: 4rem;
+    text-align: justify;
+    color: var(--blue);
+    font-size: 30px;
+
+}
+
+#services {
+    background-image: url("./media/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cl {
+    text-decoration: none;
+    color: var(--yellow);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+.ser {
+    background-color: rgba(3, 6, 20, 0.584);
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.carousel-inner {
+    height: 100vh;
+}
+
+@media(max-width:993px) {
+    .carousel-inner {
+        height: 300px;
+        margin-top: 50px;
+    }
+
+}
+
+.co {
+    margin-top: 10rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+@media(max-width:768px) {
+    .co {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+    }
+}
+
+.para2 {
+    color: var(--blue);
+    font-size: 40px;
+}
+
+.para2 span {
+    color: var(--yellow);
+    font-size: 45px;
+}
+
+.navbar-toggler {
+    color: var(--yellow);
+}
+
+.navbar-toggler-icon {
+    color: var(--yellow);
+}
+
+/* contact */
+#connect {
+    background-image: url("https://media.istockphoto.com/id/1398727787/vector/banner-web-template-abstract-blue-and-golden-curved-lines-overlapping-layer-design-on-dark.jpg?s=612x612&w=0&k=20&c=5JXpixU4jQV8VuBD8JvhtSlbtbxQwk1Z6DaLmI6SDMU=");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 80px;
+}
+
+
+/* Footer */
+.footer {
+    background-color: var(--blue);
+    color: var(--yellow);
+}
+
+.footer .about-text {
+    color: var(--yellow);
+}
+
+.footer-link {
+    color: var(--yellow);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
+
+.footer-icon {
+    color: var(--yellow);
+    font-size: 1.4rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icon:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+.footer h5 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
